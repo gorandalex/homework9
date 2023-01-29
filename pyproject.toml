@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "block2-homework9"
+version = "0.1.0"
+description = ""
+authors = ["gorandalex <andrii.gorobets@gmail.com>"]
+readme = "README.md"
+packages = [{include = "block2_homework9"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scrapy = "^2.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
